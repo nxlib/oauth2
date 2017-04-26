@@ -1,0 +1,23 @@
+{
+  "name": "nxlib/oauth2",
+  "description": "oauth2",
+  "keywords": ["oauth2"],
+  "type": "library",
+  "license": "GPL v3",
+  "authors": [
+    {
+      "name": "Garming Lau",
+      "email": "garming@msn.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-pdo": "*"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "NxLib\\Oauth2\\": "src/"
+    }
+  }
+}
